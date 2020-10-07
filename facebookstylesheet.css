@@ -1,0 +1,282 @@
+body
+{
+    background-color:#f0f3f3;
+    margin: 0;
+    padding: 0;
+    font-size: small;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#left-section
+{
+    padding-top: 201px;
+    padding-left: 183px;
+}
+#facebook-name-section
+{
+    width: 545px;
+}
+
+
+#facebook-text
+{
+    color: rgb(46, 45, 45);
+    font-size: 28px;
+    font-weight: lighter;
+    margin-top: 14px;
+    padding-left: 2px;
+    margin-bottom: 335px;
+}
+
+#login-password-section
+{
+    background-color: white;
+    width: 396px;
+    height: 345px;
+    position: absolute;
+    top: 132px;
+    left: 765px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 15px 5px rgb(224, 222, 222);
+}
+
+.email-box
+{
+    font-size: 17px;
+    height: 50px;
+    width: 362px;
+    margin: auto;
+    margin-top:16px;
+    border:1px solid #dddfe2;
+    border-radius: 6px;
+}
+.email-box:hover
+{
+    border:1px outset #5b90f6  
+}
+
+.login-email
+{
+    width:340px;
+    margin-left: 12.9px;
+    margin-top: 12px;
+    height: 24px;
+    border: none;
+}
+
+.login-email::placeholder
+{
+    font-size: 17px;
+    letter-spacing: .1px;
+    color: rgb(156, 153, 153);
+}
+
+.login-email:focus
+{
+    outline: none;
+    font-size: 19px;
+
+}
+.password-box
+{
+    font-size: 17px;
+    height: 50px;
+    width: 362px;
+    margin: auto;
+    margin-top:12px;
+    border:1px solid #dddfe2;
+    border-radius: 6px;
+}
+.password-box:hover
+{
+    border:1px outset #5b90f6  
+}
+
+.login-pass
+{
+    width:340px;
+    margin-left: 12.9px;
+    margin-top: 12px;
+    height: 24px;
+    border: none;
+
+}
+
+.login-pass::placeholder
+{
+   font-size: 17px;
+    letter-spacing: .1px;
+    color: rgb(156, 153, 153);
+
+}
+
+.login-pass:focus
+{
+    outline: none;
+    font-size: 19px;
+}
+
+.login
+{
+    font-size: 20px;
+    line-height: 46px; 
+    border: none;
+    height: 48px;
+    width: 364px;
+    margin: auto;
+    margin-top:12px;
+    margin-left: 16PX;
+    border-radius: 6px;
+    background-color:#0d6eec;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    opacity: .9;
+}
+
+.login:hover{
+    opacity: 1;
+}
+
+#forgot-pass
+{
+    margin-left: 132px;
+    margin-top: 17px;
+    color: #0d6eec;
+    font-size: 14px;  
+}
+
+#horizontal-line
+{
+    width: 365px;
+    border-bottom: 1px solid #dadde1;
+    margin-top: 21px;
+    margin-left: 14.5px;
+}
+
+ .create-accnt-box
+{
+    margin-top: 26px;
+    margin-left: 99px;
+} 
+
+.create-accnt-button
+{
+    height: 48px;
+    width: 198px;
+    margin: auto;
+    font-size: 17px;
+    border-radius: 7px;
+    background-color: #28a528;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 9px;
+    padding-right: 9px;
+    border: none;
+    opacity: .9;
+}
+
+.create-accnt-button:hover
+{
+    opacity: 1;
+}
+
+#create-page
+{
+    position: absolute;
+    top:506px;
+    left: 814px;
+    font-size: 14px;
+}
+
+#footer
+{
+    background-color: #fff;
+    height: 159px;
+    position: relative;
+    top: 40px;
+}
+
+#footer ul{
+    list-style-type: none;
+    padding-top: 26px;
+    padding-left: 233.5px;
+    word-spacing: 5px;
+    letter-spacing: .1px;
+}
+#footer ul li a{
+    word-spacing: -1px;
+}
+
+#footer ul li{ 
+    display: inline;
+    list-style-type: none;
+    font-size: 11px;
+    color: rgb(133, 121, 121);
+}
+
+
+#language-button
+{
+    border:1px solid#858686;;
+    background-color:#f0f3f3;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 1px;
+}
+
+#footer-horizontal-line
+{
+    border-bottom: 1px solid #dddfe2;
+    height: 8px;
+    margin-top: -11px;
+    margin-left: 233.5px;
+    width: 882px;
+}
+
+#footer-links
+{
+width: 1130px;
+height: 56px;
+margin-top: -32px;
+}
+
+#footer-links ul
+{
+    list-style-type: none;
+    line-height: 1.4;
+    margin-left: -5px;
+    word-spacing: 7px;
+}
+#footer-links ul li a 
+{
+    word-spacing: 3px;
+}
+#footer-links ul li
+{ 
+    display: inline;
+    list-style-type: none;
+    color: rgb(133, 121, 121);
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 5px;
+    font-size: 11px;
+
+}
+
+#copy-right
+{
+    margin-left: 233.5px;
+    margin-top: 38px;
+}
+
+#copy-right a
+{
+font-size: 10px;
+color:rgb(133, 121, 121);
+;
+}
